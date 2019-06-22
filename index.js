@@ -4,8 +4,8 @@ function findMatching(arr, string) {
   return filteredDrivers;
 }
 
-function fuzzyMatch() {
-  
+function fuzzyMatch(arr, string) {
+  return arr.filter(function (el) {return el[0].toLowerCase() === string
 }
 
 function matchName() {
