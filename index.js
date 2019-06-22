@@ -8,6 +8,6 @@ function fuzzyMatch(arr, string) {
   return arr.filter(function (el) {return el.toLowerCase().startsWith(string.toLowerCase());});
 }
 
-function matchName() {
-  
+function matchName(arr, string) {
+  return arr.filter(function (driver) {return driver.name === string;});
 }
